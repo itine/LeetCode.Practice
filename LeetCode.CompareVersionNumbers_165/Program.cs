@@ -1,4 +1,6 @@
-﻿class Program
+﻿using System;
+
+class Program
 {
     /// <summary>
     /// Compare with comparator

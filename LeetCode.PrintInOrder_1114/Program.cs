@@ -1,15 +1,17 @@
-﻿static void Main(string[] args)
+﻿using System;
+using System.Threading;
+
+static void Main(string[] args)
 {
-    
 }
 
 public class Foo
 {
-    private readonly Semaphore _secondSemaphore = new (0,1);
-    private readonly Semaphore _thirdSemaphore = new (0,1);
+    private readonly Semaphore _secondSemaphore = new(0, 1);
+    private readonly Semaphore _thirdSemaphore = new(0, 1);
 
-    public Foo() {
-        
+    public Foo()
+    {
     }
 
     public void First(Action printFirst)
