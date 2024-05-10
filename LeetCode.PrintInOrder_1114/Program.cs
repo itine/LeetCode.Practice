@@ -1,4 +1,9 @@
-﻿public class Foo
+﻿static void Main(string[] args)
+{
+    
+}
+
+public class Foo
 {
     private readonly Semaphore _secondSemaphore = new (0,1);
     private readonly Semaphore _thirdSemaphore = new (0,1);
