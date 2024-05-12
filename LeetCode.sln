@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.TwoSum_1", "LeetCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.PrintFooBarAlternately_1115", "LeetCode.PrintFooBarAlternately_1115\LeetCode.PrintFooBarAlternately_1115.csproj", "{1670EDBE-E2A1-484E-A5C2-E866BF30A5D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.SudokuSolver_37", "LeetCode.SudokuSolver_37\LeetCode.SudokuSolver_37.csproj", "{12B5CABE-2242-415D-9C05-A7B4ABC5B126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.LongestSubstring_3_Medium", "LeetCode.LongestSubstring_3_Medium\LeetCode.LongestSubstring_3_Medium.csproj", "{5F485B0A-7790-4FD3-9708-B598723E5422}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{1670EDBE-E2A1-484E-A5C2-E866BF30A5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1670EDBE-E2A1-484E-A5C2-E866BF30A5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1670EDBE-E2A1-484E-A5C2-E866BF30A5D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B5CABE-2242-415D-9C05-A7B4ABC5B126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B5CABE-2242-415D-9C05-A7B4ABC5B126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B5CABE-2242-415D-9C05-A7B4ABC5B126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B5CABE-2242-415D-9C05-A7B4ABC5B126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F485B0A-7790-4FD3-9708-B598723E5422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F485B0A-7790-4FD3-9708-B598723E5422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F485B0A-7790-4FD3-9708-B598723E5422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F485B0A-7790-4FD3-9708-B598723E5422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
