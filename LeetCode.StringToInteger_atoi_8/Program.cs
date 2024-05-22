@@ -18,25 +18,25 @@ public static class Solution
             i++;
         }
 
-        for (; i < s.Length; i++)
+        try
         {
-            if (!char.IsDigit(s[i]))
+            for (; i < s.Length; i++)
             {
-                break;
-            }
+                if (!char.IsDigit(s[i]))
+                {
+                    break;
+                }
 
-            try
-            {
                 checked
                 {
                     int currentDigit = s[i] - '0';
                     number = (number ?? 0) * 10 + currentDigit;
                 }
             }
-            catch (OverflowException)
-            {
-                return sign == 1 ? int.MaxValue : int.MinValue;
-            }
+        }
+        catch (OverflowException)
+        {
+            number = sign == 1 ? int.MaxValue : int.MinValue;
         }
 
         return (number ?? 0) * sign;
