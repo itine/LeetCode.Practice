@@ -8,8 +8,7 @@ public static class Solution
         if (s.Length == 0)
             return 0;
 
-        int i = 0, sign = 1;
-        int? number = null;
+        int i = 0, number = 0, sign = 1;
 
         if (s[0] == '-' || s[0] == '+')
         {
@@ -30,15 +29,17 @@ public static class Solution
                 checked
                 {
                     int currentDigit = s[i] - '0';
-                    number = (number ?? 0) * 10 + currentDigit;
+                    number = number * 10 + currentDigit;
                 }
             }
         }
         catch (OverflowException)
         {
-            number = sign == 1 ? int.MaxValue : int.MinValue;
+            return sign == 1 ?
+                int.MaxValue :
+                int.MinValue;
         }
 
-        return (number ?? 0) * sign;
+        return number * sign;
     }
 }
