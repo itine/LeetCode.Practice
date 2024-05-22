@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.LongestSubstring_3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.PalindromeNumber_9", "LeetCode.PalindromeNumber_9\LeetCode.PalindromeNumber_9.csproj", "{BDE14156-CA01-40DE-A059-8E0CE9411DBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.StringToInteger_atoi_8", "LeetCode.StringToInteger_atoi_8\LeetCode.StringToInteger_atoi_8.csproj", "{C80AF6A5-3417-48CF-AC73-F5CA06CB916F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{BDE14156-CA01-40DE-A059-8E0CE9411DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDE14156-CA01-40DE-A059-8E0CE9411DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDE14156-CA01-40DE-A059-8E0CE9411DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C80AF6A5-3417-48CF-AC73-F5CA06CB916F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C80AF6A5-3417-48CF-AC73-F5CA06CB916F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C80AF6A5-3417-48CF-AC73-F5CA06CB916F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C80AF6A5-3417-48CF-AC73-F5CA06CB916F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
