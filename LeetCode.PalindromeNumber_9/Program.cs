@@ -1,4 +1,6 @@
-﻿Console.WriteLine(SolutionWithoutAllocation.IsPalindrome(10));
+﻿using System;
+
+Console.WriteLine(SolutionWithoutAllocation.IsPalindrome(10));
 
 public static class SolutionWithoutAllocation
 {
